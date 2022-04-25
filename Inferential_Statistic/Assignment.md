@@ -18,10 +18,10 @@ We will formulate their formal definition below in Hypothesis 1 & 2
 
 #### Hypothesis 1
 First we will set it for baseline versus any form of chocolate. 
-      Null Hypothesis 1: The consumption of dark chocolate and white chocolate have no effect on the cyclists and they travel equal distances.
-                => H0_1 = dark chocolate - white chocolate = 0
-      Alternate Hypothesis 1: There is significant difference between the consumption of dark and white chocolates, 
-                => Ha_1 = dark chocolate - white chocolate != 0
+......Null Hypothesis 1: The consumption of dark chocolate and white chocolate have no effect on the cyclists and they travel equal distances.
+............... => H0_1 = dark chocolate - white chocolate = 0
+......Alternate Hypothesis 1: There is significant difference between the consumption of dark and white chocolates, 
+............... => Ha_1 = dark chocolate - white chocolate != 0
 
 #### Hypothesis 2
 The next set of hypothesis will be set for comparison between dark and white chocolates.
