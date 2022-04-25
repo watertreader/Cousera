@@ -3,7 +3,9 @@
   * Part 1 Dark chocolate consumption for a week
   * Part 2 While chocolate consumption for subsequent week
 
-As the test is similar to a before-after test on same group of people, it can be taken that we have a population paired data
+The result is being collected and share as below, "Test Observation"
+
+As the test is similar to a before-after test on same group of people, it can be taken that we have a population paired data and is done in cross over design test.
   
  #### Benefits of CrossOver Design
    The benfits of crossover design test is that one need lesser study participants, especially in special categories. For this study, it is quite difficult to find that many professional cyclist to particpate (would at least require twice the participants number for normal test). Study participants server as their own control as the intervention is measured on the same group of people
@@ -19,10 +21,10 @@ We will formulate their formal definition below in Hypothesis 1 & 2
 #### Hypothesis 1
 First we will set it for baseline versus any form of chocolate. 
 
-      Null Hypothesis: The consumption of dark chocolate and white chocolate have no effect on the cyclists and they travel equal distances.
+      Null Hypothesis: The consumption of chocolate have no effect on the cyclists and they travel equal distances.
                 => H0 = dark chocolate - white chocolate = 0
 
-     Alternate Hypothesis 1: There is significant difference between the consumption of dark and white chocolates, 
+     Alternate Hypothesis: There is significant difference between the consumption of chocolates to sprint distance, 
                 => H1 = dark chocolate - white chocolate != 0
 
 #### Hypothesis 2
@@ -30,15 +32,17 @@ The next set of hypothesis will be set for comparison between dark and white cho
      
       Null Hypothesis: There is no significant difference between consuming dark and white chocolates. 
               =>H0 = mu1 - mu2 = 0 
-      Alternate Hypothesis 2: There is significant difference between consuming dark and white chocolates.
+      Alternate Hypothesis: There is significant difference between consuming dark and white chocolates.
               =>Ha_2 mu1 - mu2 != 0 These are both 2 sided hypotheses.
 
 ## Assumptions
 With hypothesis being set, we will check out the assumption for this study.
   * One assumption is to assume the data is normally distributed. Even though the sample size is rather small, we are to consider them normal
-  * Another assumption is that there is no residual effect from chocolate consumption ie effect of consumption would not linger/spill over for any period after the test 
-  * 
-  * 
+  * Another assumption is that there is no residual effect from chocolate consumption ie effect of consumption would not linger/spill over for any period after the test. Or simply it mean the observations are independent 
+  * Last assumption we are to assume that the observations are random. There is no given instructions to cyclist on which order (white or dark chocloate), they should consume first
+
+## Test Observation
+
 
 ## Analysis of results
 We already have the results of the distance covered without having chocolates, after having white chocolates for a week and after consuming dark chocolate for a week. We have the mean, and standard deviation for all the three along with the corresponding p-value of white and dark chocolate compared with the baseline.
