@@ -1,3 +1,12 @@
+TO: Head Trainer, U.S. bicycle team
+
+FROM: Wong Chee Howe, Performance Analyst
+
+DATE: Apr 14, 2022
+
+SUBJECT: Study and Analysis on Chocolate Consumption Effect on Cyclist Performance
+
+
 ## Introduction
   The study about the chocolate consumption effects (dark chocolate "Dove" and white chocolate "MilkyBar") on cyclists during cycling. The particular parameter we are interested in is the cyclist all-out sprint performance. From 9 male cyclists, study was conducted in 2 parts
   * Part 1 Dark chocolate consumption for a week
