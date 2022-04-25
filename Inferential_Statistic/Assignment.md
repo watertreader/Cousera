@@ -3,7 +3,13 @@
   * Part 1 Dark chocolate consumption for a week
   * Part 2 While chocolate consumption for subsequent week
   
+ ### Benefits of CrossOver Design
+   The benfits of crossover design test is that one need lesser study participants, especially in special categories. For this study, it is quite difficult to find that many professional cyclist to particpate (would at least require twice the participants number for normal test). Study participants server as their own control as the intervention is measured on the same group of people
+   
   
+ 
+ 
+ 
   Our parameter of interest is the all-out bicycle sprint performance (meters). The results we got from the study after conducting it on 9 male participants was measured in 2 trails, one after consumption of dark chocolate for a week and one after consumption of white chocolate for a week. So, we have a population paired data.
 
 ## Defining our Hypothesis
@@ -49,3 +55,5 @@ For our Hypothesis test, we see that the p-value we get is 0.003 which is less t
 From this, we can conclude that there is significant difference between the performance of cyclists when they took chocolates versus their performance when they did not take chocolates. Chocolates seem to have a positive effect on their performance. In addition, consuming dark chocolate gives a greater performance boost than consuming white chocolates.
 
 ## Reference
+  * R. K.; Brouner, J.; Spendiff, O. Journal of the International Society of Sports Nutrition. 2015 12:47
+  * https://s4be.cochrane.org/blog/2020/09/07/crossover-trials-what-are-they-and-what-are-their-advantages-and-limitations/
