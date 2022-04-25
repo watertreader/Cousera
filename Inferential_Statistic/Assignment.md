@@ -19,13 +19,11 @@ We will formulate their formal definition below in Hypothesis 1 & 2
 #### Hypothesis 1
 First we will set it for baseline versus any form of chocolate. 
 
-......Null Hypothesis 1: The consumption of dark chocolate and white chocolate have no effect on the cyclists and they travel equal distances.
+      Null Hypothesis 1: The consumption of dark chocolate and white chocolate have no effect on the cyclists and they travel equal distances.
+                => H0_1 = dark chocolate - white chocolate = 0
 
-............... => H0_1 = dark chocolate - white chocolate = 0
-
-......Alternate Hypothesis 1: There is significant difference between the consumption of dark and white chocolates, 
-
-............... => Ha_1 = dark chocolate - white chocolate != 0
+     Alternate Hypothesis 1: There is significant difference between the consumption of dark and white chocolates, 
+               => Ha_1 = dark chocolate - white chocolate != 0
 
 #### Hypothesis 2
 The next set of hypothesis will be set for comparison between dark and white chocolates.
@@ -35,8 +33,10 @@ The next set of hypothesis will be set for comparison between dark and white cho
               =>Ha_2 mu1 - mu2 != 0 These are both 2 sided hypotheses.
 
 ## Assumptions
-With that set, we will check for our assumptions.
-  * Since the order in which the participants consumed dark or white chocolate was selected at random, we will consider our data as a random sample and they are independent of one another.
+With hypothesis being set, we will check out the assumption for this study.
+  * One assumption is to assume the data is normally distributed. Even though the sample size is rather small, we are to consider them normal
+  * Another assumption is that
+  * 
   * The second assumption we need to check is whether our data is normally distributed or not. We have been told to consider it normal and we can not apply CLT to avoid normality check, so we will consider our tiny sample of data to be normally distributed.
 
 ## Analysis of results
