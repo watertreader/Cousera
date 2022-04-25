@@ -2,17 +2,22 @@
   The study about the chocolate consumption effects (dark chocolate "Dove" and white chocolate "MilkyBar") on cyclists during cycling. The particular parameter we are interested in is the cyclist all-out sprint performance. From 9 male cyclists, study was conducted in 2 parts
   * Part 1 Dark chocolate consumption for a week
   * Part 2 While chocolate consumption for subsequent week
+
+As the test is similar to a before-after test on same group of people, it can be taken that we have a population paired data
   
- ### Benefits of CrossOver Design
+ #### Benefits of CrossOver Design
    The benfits of crossover design test is that one need lesser study participants, especially in special categories. For this study, it is quite difficult to find that many professional cyclist to particpate (would at least require twice the participants number for normal test). Study participants server as their own control as the intervention is measured on the same group of people
    
-  
- 
- 
- 
-  Our parameter of interest is the all-out bicycle sprint performance (meters). The results we got from the study after conducting it on 9 male participants was measured in 2 trails, one after consumption of dark chocolate for a week and one after consumption of white chocolate for a week. So, we have a population paired data.
 
-## Defining our Hypothesis
+## Defining Hypothesis
+There is two hypothesis being tested out here
+  1. Whether there is any benefits from consuming chocolates (both black and white) in cycling
+  2. Whether there is a difference between choosing white chocolates over black chocolates and vice versa
+
+#### Part 1
+
+
+
 We will first set our Hypotheses. We will set 2 sets of hypothesis, one for comparison between the baseline and any form of chocolate and then between dark and white chocolate.
 First we will set it for baseline versus any form of chocolate. Null Hypothesis 1: The consumption of dark chocolate and white chocolate have no effect on the cyclists and they travel equal distances. => H0_1 = dark chocolate - white chocolate = 0
 Alternate Hypothesis 1: There is significant difference between the consumption of dark and white chocolates, => Ha_1 = dark chocolate - white chocolate != 0
