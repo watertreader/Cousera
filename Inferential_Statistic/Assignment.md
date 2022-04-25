@@ -1,5 +1,10 @@
-## Background
-  The study about the effects of the consumption of chocolate (dark chocolate and white chocolate) on cyclists during cycling. Our parameter of interest is the all-out bicycle sprint performance (meters). The results we got from the study after conducting it on 9 male participants was measured in 2 trails, one after consumption of dark chocolate for a week and one after consumption of white chocolate for a week. So, we have a population paired data.
+## Introduction
+  The study about the chocolate consumption effects (dark chocolate "Dove" and white chocolate "MilkyBar") on cyclists during cycling. The particular parameter we are interested in is the cyclist all-out sprint performance. From 9 male cyclists, study was conducted in 2 parts
+  * Part 1 Dark chocolate consumption for a week
+  * Part 2 While chocolate consumption for subsequent week
+  
+  
+  Our parameter of interest is the all-out bicycle sprint performance (meters). The results we got from the study after conducting it on 9 male participants was measured in 2 trails, one after consumption of dark chocolate for a week and one after consumption of white chocolate for a week. So, we have a population paired data.
 
 ## Defining our Hypothesis
 We will first set our Hypotheses. We will set 2 sets of hypothesis, one for comparison between the baseline and any form of chocolate and then between dark and white chocolate.
