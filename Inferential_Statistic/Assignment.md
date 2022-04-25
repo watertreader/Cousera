@@ -10,22 +10,30 @@ As the test is similar to a before-after test on same group of people, it can be
    
 
 ## Defining Hypothesis
-There is two hypothesis being tested out here
+There is two hypothesis being tested out here and of interest to people
   1. Whether there is any benefits from consuming chocolates (both black and white) in cycling
   2. Whether there is a difference between choosing white chocolates over black chocolates and vice versa
 
-#### Part 1
+We will formulate their formal definition below in Hypothesis 1 & 2
 
+#### Hypothesis 1
+First we will set it for baseline versus any form of chocolate. 
+      Null Hypothesis 1: The consumption of dark chocolate and white chocolate have no effect on the cyclists and they travel equal distances.
+                => H0_1 = dark chocolate - white chocolate = 0
+      Alternate Hypothesis 1: There is significant difference between the consumption of dark and white chocolates, 
+                => Ha_1 = dark chocolate - white chocolate != 0
 
+#### Hypothesis 2
+The next set of hypothesis will be set for comparison between dark and white chocolates.
+      Null Hypothesis 2: There is no significant difference between consuming dark and white chocolates. 
+              =>H0_2 = mu1 - mu2 = 0 
+      Alternate Hypothesis 2: There is significant difference between consuming dark and white chocolates.
+              =>Ha_2 mu1 - mu2 != 0 These are both 2 sided hypotheses.
 
-We will first set our Hypotheses. We will set 2 sets of hypothesis, one for comparison between the baseline and any form of chocolate and then between dark and white chocolate.
-First we will set it for baseline versus any form of chocolate. Null Hypothesis 1: The consumption of dark chocolate and white chocolate have no effect on the cyclists and they travel equal distances. => H0_1 = dark chocolate - white chocolate = 0
-Alternate Hypothesis 1: There is significant difference between the consumption of dark and white chocolates, => Ha_1 = dark chocolate - white chocolate != 0
-The next set of hypothesis will be set for comparison between dark and white chocolates. Null Hypothesis 2: There is no significant difference between consuming dark and white chocolates. =>H0_2 = mu1 - mu2 = 0 Alternate Hypothesis 2: There is significant difference between consuming dark and white chocolates. =>Ha_2 mu1 - mu2 != 0 These are both 2 sided hypotheses.
-
-## Examining our data and checking assumptions
+## Assumptions
 With that set, we will check for our assumptions.
-Since the order in which the participants consumed dark or white chocolate was selected at random, we will consider our data as a random sample and they are independent of one another. The second assumption we need to check is whether our data is normally distributed or not. We have been told to consider it normal and we can not apply CLT to avoid normality check, so we will consider our tiny sample of data to be normally distributed.
+  * Since the order in which the participants consumed dark or white chocolate was selected at random, we will consider our data as a random sample and they are independent of one another.
+  * The second assumption we need to check is whether our data is normally distributed or not. We have been told to consider it normal and we can not apply CLT to avoid normality check, so we will consider our tiny sample of data to be normally distributed.
 
 ## Analysis of results
 We already have the results of the distance covered without having chocolates, after having white chocolates for a week and after consuming dark chocolate for a week. We have the mean, and standard deviation for all the three along with the corresponding p-value of white and dark chocolate compared with the baseline.
