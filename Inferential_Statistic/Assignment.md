@@ -51,7 +51,7 @@ With hypothesis being set, we will check out the assumption for this study.
   * Last assumption we are to assume that the observations are random. There is no given instructions to cyclist on which order (white or dark chocloate) should consume first.
 
 ## Test Observation
-We have the results of the sprint distance (mean, standard deviation  and the corresponding p-value) covered without having chocolates, after having white chocolates for a week and after consuming dark chocolate for a week and tabulated below
+We have the results of the sprint distance (mean, standard deviation  and the corresponding p-value respectively) covered without having chocolates, after having white chocolates for a week and after consuming dark chocolate for a week and tabulated below
 
 |    | Baseline | White Chocolate (WC) | Dark Chocolate (DC) | 
 --- | --- | --- | --- |
@@ -61,18 +61,20 @@ p-value (compared to baseline) | --- | 0.319 | 0.001 |
 
 ## Analysis of results
 
-From the data, we get the following results:
+From the 1st hypothesis we get the following results:
+        
+       mu1 - mu0 = 1606 - 1367 = 239 meters
+       95% confidence interval: (165 m, 314 m)
+       p-value for the above = 0.001
 
-mu1 - mu0 = 1606 - 1367 = 239 meters
-95% confidence interval of dark chocolate: (165 m, 314 m)
-p-value for the above = 0.001
-m2 - mu0 = 1419 - 1367 = 52 meters 
+       m2 - mu0 = 1419 - 1367 = 52 meters 
 
-The difference in mean (mu1 - mu2) = 1606 - 1419 = 187 meters
-95% confidence interval for dark chocolate vs white chocolate: (82 m, 292 m)
-p-value for the above = 0.003
-.
-We will consider our significance level to be 0.05.
+For the 2nd hypothesis, we get the following result,
+
+        mu1 - mu2 = 1606 - 1419 = 187 meters
+        95% confidence interval for dark chocolate vs white chocolate: (82 m, 292 m)
+        p-value for the above = 0.003
+
 
 ## Making a Decision
 We see, from our analysis of the results that dark chocolate almost always performs better than white chocolate and the baseline results. This might be only for our sample and so, we will check our hypothesis and the confidence interval to see if our result is useful or not.
