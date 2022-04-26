@@ -51,13 +51,11 @@ With hypothesis being set, we will check out the assumption for this study.
   * Last assumption we are to assume that the observations are random. There is no given instructions to cyclist on which order (white or dark chocloate), they should consume first
 
 ## Test Observation
-|    | #1 | #2 | #3 | 
+|    | Baseline | White Chocolate (WC) | Dark Chocolate (DC) | 
 --- | --- | --- | --- |
-Mean (m) | #1 | #2 | #3 | 
---- | --- | --- | --- |
-Std dev (m) | 301 | 283 | 290 | 
---- | --- | --- | --- |
-p-value (compared to baseline) | 301 | 283 | 290 | 
+Mean (m) | 1367 | 1419 | 1606 | 
+Std dev (m) | 171 | 248 | 158 | 
+p-value (compared to baseline) | --- | 0.319 | 0.001 | 
 
 ## Analysis of results
 We already have the results of the distance covered without having chocolates, after having white chocolates for a week and after consuming dark chocolate for a week. We have the mean, and standard deviation for all the three along with the corresponding p-value of white and dark chocolate compared with the baseline.
