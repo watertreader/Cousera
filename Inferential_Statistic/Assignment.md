@@ -37,7 +37,7 @@ First we will set it for baseline versus any form of chocolate.
                 => H1: dark chocolate - white chocolate != 0
 
 #### Hypothesis 2
-The next set of hypothesis will be set for comparison between dark and white chocolates.
+The next set of hypothesis will be set for comparison between dark and white chocolates. Let the mean of dark chocolate be mu1 and white chocolate be mu2
      
       Null Hypothesis: There is no significant difference between consuming dark and white chocolates. 
               =>H0: mu1 - mu2 = 0 
