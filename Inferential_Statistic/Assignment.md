@@ -25,7 +25,7 @@ There is two hypothesis being tested out here and of interest to people
   1. Whether there is any benefits from consuming chocolates (both black and white) in cycling
   2. Whether there is a difference between choosing white chocolates over black chocolates and vice versa
 
-We will formulate their formal definition below in Hypothesis 1 & 2
+We will formulate their formal definition below in Hypothesis 1 & 2. Let the mean of dark chocolate be mu1 and white chocolate be mu2 while mu0 be without chocolate
 
 #### Hypothesis 1
 First we will set it for baseline versus any form of chocolate. 
@@ -37,7 +37,7 @@ First we will set it for baseline versus any form of chocolate.
                 => H1: dark chocolate - white chocolate != 0
 
 #### Hypothesis 2
-The next set of hypothesis will be set for comparison between dark and white chocolates. Let the mean of dark chocolate be mu1 and white chocolate be mu2
+The next set of hypothesis will be set for comparison between dark and white chocolates. 
      
       Null Hypothesis: There is no significant difference between consuming dark and white chocolates. 
               =>H0: mu1 - mu2 = 0 
@@ -48,9 +48,11 @@ The next set of hypothesis will be set for comparison between dark and white cho
 With hypothesis being set, we will check out the assumption for this study.
   * One assumption is to assume the data is normally distributed. Even though the sample size is rather small, we are to consider them normal
   * Another assumption is that there is no residual effect from chocolate consumption ie effect of consumption would not linger/spill over for any period after the test. Or simply the assumption are that the observations are independent from previous test. 
-  * Last assumption we are to assume that the observations are random. There is no given instructions to cyclist on which order (white or dark chocloate), they should consume first
+  * Last assumption we are to assume that the observations are random. There is no given instructions to cyclist on which order (white or dark chocloate) should consume first.
 
 ## Test Observation
+We have the results of the sprint distance (mean, standard deviation  and the corresponding p-value) covered without having chocolates, after having white chocolates for a week and after consuming dark chocolate for a week and tabulated below
+
 |    | Baseline | White Chocolate (WC) | Dark Chocolate (DC) | 
 --- | --- | --- | --- |
 Mean (m) | 1367 | 1419 | 1606 | 
@@ -58,16 +60,18 @@ Std dev (m) | 171 | 248 | 158 |
 p-value (compared to baseline) | --- | 0.319 | 0.001 | 
 
 ## Analysis of results
-We already have the results of the distance covered without having chocolates, after having white chocolates for a week and after consuming dark chocolate for a week. We have the mean, and standard deviation for all the three along with the corresponding p-value of white and dark chocolate compared with the baseline.
+
 From the data, we get the following results:
 
-mu1 - mu_baseline = 1606 - 1367 = 239 meters
+mu1 - mu0 = 1606 - 1367 = 239 meters
 95% confidence interval of dark chocolate: (165 m, 314 m)
 p-value for the above = 0.001
-m2 - mu_baseline = 1419 - 1367 = 52 meters The difference in mean (mu1 - mu2) = 1606 - 1419 = 187 meters
+m2 - mu0 = 1419 - 1367 = 52 meters 
+
+The difference in mean (mu1 - mu2) = 1606 - 1419 = 187 meters
 95% confidence interval for dark chocolate vs white chocolate: (82 m, 292 m)
 p-value for the above = 0.003
-where mu1 = mean distance dark chocolate, mu2 = mean distance white chocolate, mu_baseline = baseline mean distance.
+.
 We will consider our significance level to be 0.05.
 
 ## Making a Decision
