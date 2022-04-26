@@ -1,6 +1,6 @@
 TO: Head Trainer, U.S. bicycle team
 
-FROM: Wong Chee Howe, Data Analyst
+FROM:  Data Analyst
 
 DATE: Apr 14, 2022
 
