@@ -1,6 +1,6 @@
 TO: Head Trainer, U.S. bicycle team
 
-FROM: Wong Chee Howe, Performance Analyst
+FROM: Wong Chee Howe, Data Analyst
 
 DATE: Apr 14, 2022
 
@@ -31,26 +31,27 @@ We will formulate their formal definition below in Hypothesis 1 & 2
 First we will set it for baseline versus any form of chocolate. 
 
       Null Hypothesis: The consumption of chocolate have no effect on the cyclists and they travel equal distances.
-                => H0 = dark chocolate - white chocolate = 0
+                => H0: dark chocolate - white chocolate = 0
 
      Alternate Hypothesis: There is significant difference between the consumption of chocolates to sprint distance, 
-                => H1 = dark chocolate - white chocolate != 0
+                => H1: dark chocolate - white chocolate != 0
 
 #### Hypothesis 2
 The next set of hypothesis will be set for comparison between dark and white chocolates.
      
       Null Hypothesis: There is no significant difference between consuming dark and white chocolates. 
-              =>H0 = mu1 - mu2 = 0 
+              =>H0: mu1 - mu2 = 0 
       Alternate Hypothesis: There is significant difference between consuming dark and white chocolates.
-              =>Ha_2 mu1 - mu2 != 0 These are both 2 sided hypotheses.
+              =>H1: mu1 - mu2 != 0 These are both 2 sided hypotheses.
 
 ## Assumptions
 With hypothesis being set, we will check out the assumption for this study.
   * One assumption is to assume the data is normally distributed. Even though the sample size is rather small, we are to consider them normal
-  * Another assumption is that there is no residual effect from chocolate consumption ie effect of consumption would not linger/spill over for any period after the test. Or simply it mean the observations are independent 
+  * Another assumption is that there is no residual effect from chocolate consumption ie effect of consumption would not linger/spill over for any period after the test. Or simply the assumption are that the observations are independent from previous test. 
   * Last assumption we are to assume that the observations are random. There is no given instructions to cyclist on which order (white or dark chocloate), they should consume first
 
 ## Test Observation
+
 
 
 ## Analysis of results
@@ -83,7 +84,9 @@ To confirm this, we will check the confidence interval and see if the value we g
 For our Hypothesis test, we see that the p-value we get is 0.003 which is less than 0.05, our significance level. So, from this, we see that if our Null hypothesis was true, we would get the value of 187 meters only 0.003% of the time. This makes our null hypothesis look ridiculous. And since the value is way less than 0.05, we will reject the null hypothesis and conclude that there is significant difference between the effect of dark chocolate versus white chocolate on cyclists. In addition, we can say that dark chocolate performs much better than white chocolate.
 
 ## Conclusion
-From this, we can conclude that there is significant difference between the performance of cyclists when they took chocolates versus their performance when they did not take chocolates. Chocolates seem to have a positive effect on their performance. In addition, consuming dark chocolate gives a greater performance boost than consuming white chocolates.
+From this, we can conclude the following:
+  * There is significant difference between the performance of cyclists when they took chocolates versus their performance when they did not take chocolates. Chocolates seem to have a positive effect on their performance.
+  *  In addition, consuming dark chocolate gives a greater performance boost than consuming white chocolates.
 
 ## Reference
   * R. K.; Brouner, J.; Spendiff, O. Journal of the International Society of Sports Nutrition. 2015 12:47
