@@ -60,8 +60,9 @@ Std dev (m) | 171 | 248 | 158 |
 p-value (compared to baseline) | --- | 0.319 | 0.001 | 
 
 ## Analysis of results
+Information is given from the description.
 
-From the 1st hypothesis we get the following results:
+For the 1st hypothesis we get the following results:
         
        mu2 - mu0 = 1606 - 1367 = 239 meters
        95% confidence interval: (165 m, 314 m)
@@ -79,27 +80,24 @@ For the 2nd hypothesis, we get the following result,
 
 
 ## Making a Decision
-At the first glance, we see that the results show that the cyclist consuming dark chocolate will almost always performs better than white chocolate and the baseline results. This might be true for our sample and so, we will check our hypothesis and the confidence interval to see if our result is useful or not.
 
-We will check for the first set of hypotheses, to see the difference in performance of cyclists before and after having chocolates, i.e. H0_1 and Ha_1.
+### First Hypothesis
+At the first glance, just by comparing the mean difference, we see that the results show that the cyclist consuming chocolate will almost always result in better performance than the baseline. This might be true for our sample and we will check our hypothesis and the confidence interval to see if results stand.
 
-From our sample we see that the difference between having either chocolate and the baseline performance is positive, implying that for this sample people performed better after having chocolates.
+However, checking the confidence interval check, to see if our sample result is reasonable or not. At the 95% confidence interval, we get a range of reasonable values to be between 165 meters and 314 meters for dark and baseline. The difference between dark and baseline happens to be 239 meters which is within the confidence interval. The CI happens to be greater than zero even in the lower tail. There is no doubt that dark chocolate would enhance performance of athlete. At the same time, looking at hypothesis test, a p-value of 0.001 is obtained which implies that if we consider our Null hypothesis to be true, the values we got is 0.1% possible. That means we have sufficient proof to reject our Null hypothesis. 
 
-We will first do the confidence interval check to see if our sample result is reasonable or not. At the 95% confidence interval, we get a range of reasonable values to be between 165 meters and 314 meters. Our value happens to be 239 meters which is inside the confidence interval. So, it is not a surprising value.
-For the hypothesis test, we see that we get a p-value of 0.001 which implies that if we consider our Null hypothesis to be true, the values we got is 0.1% possible. That means we have sufficient proof to reject our Null hypothesis which states that there is no significant difference between the performance of participants before and after taking any form of chocolate. This implies that there is a significant difference between consuming and not consuming chocolates when it comes to cycling. Since the difference is positive, we can say that having chocolates has a positive effect on performance.
-We will now check for the second set of Hypotheses, to see the effect of each type of chocolate on the performance of the cyclists, i.e. H0_2, Ha_2.
+While for the white, we could not really say for sure as the hypothesis test p-value is 0.319, meaning that there is 31.9% chance of the result occuring under the null hypothesis (ie there is no difference) which is more than the 5% limit that we have set for ourself. Moreover looking at the white chocolate result, the standard deviation is much larger compared to baseline standard deviation. The boost might be evidence in some athlete but could not be found in others, and might lead to decrease in performance. Hence we could not say with confidence that there is performance increase in consuming white chocolate.
 
-We see that the difference between consuming dark chocolate and white chocolate on the distance cycled is over 187 meters in favor of dark chocolate. So, from our sample we see that dark chocolate makes the cyclists perform better.
+### Second Hypothesis
+We will now check for the second set of Hypotheses, to see the effect of each type of chocolate on the performance of the cyclists.
 
-
-
-
-For our 2nd Hypothesis test, we see that the difference is 187m in favour of black chocolate. The p-value we get is 0.003 which is less than 0.05, our significance level.  This meant the experimental results is unlikely to be achieved under the null hypothesis. And since the value is way less than 0.05, we will reject the null hypothesis and conclude that there is significant difference between the effect of dark chocolate versus white chocolate on cyclists. In addition, we can say that dark chocolate performs much better than white chocolate.
+For our 2nd Hypothesis test, we see that the mean difference is 187m in favour of black chocolate. The p-value we get is 0.003 which is less than 0.05, our significance level.  This meant the experimental results is unlikely to be achieved under the null hypothesis. And since the value is way less than 0.05, we will reject the null hypothesis and conclude that there is significant difference between the dark chocolate versus white chocolate on cyclists. In addition, we can say that dark chocolate performs much better than white chocolate.
 
 ## Conclusion
 From this, we can conclude the following:
-  * There is significant difference between the performance of cyclists when they took chocolates versus their performance when they did not take chocolates. Chocolates seem to have a positive effect on their performance.
-  *  In addition, consuming dark chocolate gives a greater performance boost than consuming white chocolates.
+  * There is significant difference between the performance of cyclists when they took dark chocolates versus baseline performance when they did not take chocolates. Dark chocolate gives better performance.
+  * We are unable to say that white chocolates give better performance over baseline. The results were insufficient to tell us that we should believe in the alternative
+  * In addition, consuming dark chocolate gives a greater performance boost than consuming white chocolates.
 
 ## Reference
   * R. K.; Brouner, J.; Spendiff, O. Journal of the International Society of Sports Nutrition. 2015 12:47
