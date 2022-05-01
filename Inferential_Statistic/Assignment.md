@@ -25,29 +25,29 @@ There is two hypothesis being tested out here and of interest to people
   1. Whether there is any benefits from consuming chocolates (both black and white) in cycling
   2. Whether there is a difference between choosing white chocolates over black chocolates and vice versa
 
-We will formulate their formal definition below in Hypothesis 1 & 2. Let the mean of dark chocolate be mu1 and white chocolate be mu2 while mu0 be without chocolate
+We will formulate their formal definition below in Hypothesis 1 & 2. Let the mean of dark chocolate be mu2 and white chocolate be mu1 while mu0 be without chocolate
 
 #### Hypothesis 1
-First we will set it for baseline versus any form of chocolate. 
+First we will set it for baseline versus any form of chocolate. For simplicity sake, we will make two comparison, first the white, then the black 
 
       Null Hypothesis: The consumption of chocolate have no effect on the cyclists and they travel equal distances.
-                => H0: dark chocolate - white chocolate = 0
+                => H0:  mu0 - mu1/2 = 0
 
      Alternate Hypothesis: There is significant difference between the consumption of chocolates to sprint distance, 
-                => H1: dark chocolate - white chocolate != 0
+                => H1:  mu0 - mu1/2 != 0 These are both 2 sided hypotheses
 
 #### Hypothesis 2
 The next set of hypothesis will be set for comparison between dark and white chocolates. 
      
       Null Hypothesis: There is no significant difference between consuming dark and white chocolates. 
-              =>H0: mu1 - mu2 = 0 
+              =>H0: mu2 - mu1 = 0 
       Alternate Hypothesis: There is significant difference between consuming dark and white chocolates.
-              =>H1: mu1 - mu2 != 0 These are both 2 sided hypotheses.
+              =>H1: mu2 - mu1 != 0 These are both 2 sided hypotheses.
 
 ## Assumptions
 With hypothesis being set, we will check out the assumption for this study.
   * One assumption is to assume the data is normally distributed. Even though the sample size is rather small, we are to consider them normal
-  * Another assumption is that there is no residual effect from chocolate consumption ie effect of consumption would not linger/spill over for any period after the test. Or simply the assumption are that the observations are independent from previous test. 
+  * Another assumption is that there is no residual effect from chocolate consumption ie effect of consumption would not linger/spill over for any period after the test. Or simply the assumption are that the observations are not affected by previous test. 
   * Last assumption we are to assume that the observations are random. There is no given instructions to cyclist on which order (white or dark chocloate) should consume first.
 
 ## Test Observation
@@ -63,21 +63,23 @@ p-value (compared to baseline) | --- | 0.319 | 0.001 |
 
 From the 1st hypothesis we get the following results:
         
-       mu1 - mu0 = 1606 - 1367 = 239 meters
+       mu2 - mu0 = 1606 - 1367 = 239 meters
        95% confidence interval: (165 m, 314 m)
        p-value for the above = 0.001
 
-       m2 - mu0 = 1419 - 1367 = 52 meters 
+       m1 - mu0 = 1419 - 1367 = 52 meters 
+       95% confidence interval: Not given
+       p-value for the above = 0.319      
 
 For the 2nd hypothesis, we get the following result,
 
-        mu1 - mu2 = 1606 - 1419 = 187 meters
+        mu2 - mu1 = 1606 - 1419 = 187 meters
         95% confidence interval for dark chocolate vs white chocolate: (82 m, 292 m)
         p-value for the above = 0.003
 
 
 ## Making a Decision
-We see, from our analysis of the results that dark chocolate almost always performs better than white chocolate and the baseline results. This might be only for our sample and so, we will check our hypothesis and the confidence interval to see if our result is useful or not.
+At the first glance, we see that the results show that the cyclist consuming dark chocolate will almost always performs better than white chocolate and the baseline results. This might be true for our sample and so, we will check our hypothesis and the confidence interval to see if our result is useful or not.
 
 We will check for the first set of hypotheses, to see the difference in performance of cyclists before and after having chocolates, i.e. H0_1 and Ha_1.
 
@@ -89,8 +91,10 @@ We will now check for the second set of Hypotheses, to see the effect of each ty
 
 We see that the difference between consuming dark chocolate and white chocolate on the distance cycled is over 187 meters in favor of dark chocolate. So, from our sample we see that dark chocolate makes the cyclists perform better.
 
-To confirm this, we will check the confidence interval and see if the value we got was reasonable or not. We see that the confidence interval is (82 meters, 292 meters). 187 meters lies inside the confidence interval and so our result is reasonable. In addition, since both values in the confidence interval is positive, we can also conclude with 95% confidence that dark chocolate makes cyclists perform better than those who take white chocolate.
-For our Hypothesis test, we see that the p-value we get is 0.003 which is less than 0.05, our significance level. So, from this, we see that if our Null hypothesis was true, we would get the value of 187 meters only 0.003% of the time. This makes our null hypothesis look ridiculous. And since the value is way less than 0.05, we will reject the null hypothesis and conclude that there is significant difference between the effect of dark chocolate versus white chocolate on cyclists. In addition, we can say that dark chocolate performs much better than white chocolate.
+
+
+
+For our 2nd Hypothesis test, we see that the difference is 187m in favour of black chocolate. The p-value we get is 0.003 which is less than 0.05, our significance level.  This meant the experimental results is unlikely to be achieved under the null hypothesis. And since the value is way less than 0.05, we will reject the null hypothesis and conclude that there is significant difference between the effect of dark chocolate versus white chocolate on cyclists. In addition, we can say that dark chocolate performs much better than white chocolate.
 
 ## Conclusion
 From this, we can conclude the following:
